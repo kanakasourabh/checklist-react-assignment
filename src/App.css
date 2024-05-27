@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+.checkbox {
+  font-family: Arial, sans-serif;
+}
+
+.checkbox label {
+  display: block;
+}
+
+

@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const options = ["option1", "option2", "option3"];
+  const options = ["Delhi", "Bengaluru", "Pune", "Hyderabad", "Mumbai"];
   const [checkedOption, setCheckedOption] = useState([]);
   const handleChange = (option) => {
     if (checkedOption.includes(option)) {
